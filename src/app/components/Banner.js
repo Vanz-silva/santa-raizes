@@ -19,10 +19,11 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="banner" style={{ height: "90vh", overflow: "hidden" }}>
+    <section className="banner pt-4" style={{ height: "80vh", overflow: "hidden" }}>
       <div
         id="carouselBanner"
-        className="carousel slide carousel-fade w-100 h-100"
+        className="carousel slide carousel-fade box-st h-100"
+        style={{ width: "96%", margin: "0 auto", padding: "0", }}
       >
         <div className="carousel-inner h-100 w-100">
           {/* Slide 1 */}
@@ -33,6 +34,7 @@ const Banner = () => {
               layout="fill"
               className="object-fit-cover"
               priority
+              style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
               <h1 className="display-3 fw-bold">Primeiro Slide</h1>
@@ -46,6 +48,7 @@ const Banner = () => {
               alt="Imagem 2"
               layout="fill"
               className="object-fit-cover"
+              style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
               <h1 className="display-3 fw-bold">Segundo Slide</h1>
@@ -59,6 +62,7 @@ const Banner = () => {
               alt="Imagem 3"
               layout="fill"
               className="object-fit-cover"
+              style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
               <h1 className="display-3 fw-bold">Terceiro Slide</h1>
