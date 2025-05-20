@@ -26,7 +26,7 @@ const Statistics = () => {
           <div className="box-st col-md-3 col-sm-12">
             <div className="p-4 rounded text-dark">
               <Image
-                src="/icon-tree.png"
+                src="/qr.png"
                 alt="Veterinários"
                 width={64}
                 height={64}
@@ -40,8 +40,8 @@ const Statistics = () => {
           <div className="box-st col-md-3 col-sm-12">
             <div className="p-4 rounded text-dark">
               <Image
-                src="/icon-tree-2.png"
-                alt="Exames"
+                src="/terra.png"
+                alt=""
                 width={64}
                 height={64}
                 className="m-3"
