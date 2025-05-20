@@ -1,13 +1,27 @@
 // components/Navbar.js
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Image from "next/image";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark">
     <div className="container">
-      <a className="navbar-brand" href="#">
-       Santa Raizes 
-      </a>
+      <div className="d-flex text-center align-items-center">
+        <div>
+          <Image
+            src="/planta.png"
+            alt="Exames"
+            width={40}
+            height={40}
+            className="m-3"
+          />
+        </div>
+        <div>
+          <a className="navbar-brand" href="#">
+            Santa Raizes
+          </a>
+        </div>
+      </div>
       <button
         className="navbar-toggler"
         type="button"
