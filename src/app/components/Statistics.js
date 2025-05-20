@@ -10,8 +10,8 @@ const Statistics = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setVets((prev) => (prev < 8 ? prev + 1 : 8));
-      setSpecialties((prev) => (prev < 6 ? prev + 1 : 6));
+      setVets((prev) => (prev < 20 ? prev + 1 : 20));
+      setSpecialties((prev) => (prev < 74 ? prev + 1 : 74));
       setTests((prev) => (prev < 80 ? prev + 1 : 80));
     }, 100);
 
@@ -26,39 +26,42 @@ const Statistics = () => {
           <div className="box-st col-md-3 col-sm-12">
             <div className="p-4 rounded text-dark">
               <Image
-                src="/vet-icon.png"
+                src="/icon-tree.png"
                 alt="Veterinários"
                 width={64}
                 height={64}
+                className="m-3"
               />
-              <h3>{vets}</h3>
-              <p>Veterinários</p>
+              <h2>{vets}</h2>
+              <p>Qr Codes</p>
             </div>
           </div>
           {/* Box 2 */}
           <div className="box-st col-md-3 col-sm-12">
             <div className="p-4 rounded text-dark">
               <Image
-                src="/specialty-icon.png"
-                alt="Especialidades"
+                src="/icon-tree-2.png"
+                alt="Exames"
                 width={64}
                 height={64}
+                className="m-3"
               />
-              <h3>{specialties}</h3>
-              <p>Especialidades</p>
+              <h2>{tests}</h2>
+              <p>Árvores</p>
             </div>
           </div>
           {/* Box 3 */}
           <div className="box-st col-md-3 col-sm-12">
             <div className="p-4 rounded text-dark">
               <Image
-                src="/tests-icon.png"
-                alt="Exames"
+                src="/icon-tree-2.png"
+                alt="Especialidades"
                 width={64}
                 height={64}
+                className="m-3"
               />
-              <h3>{tests}</h3>
-              <p>Exames</p>
+              <h2>{specialties}</h2>
+              <p>Espécies</p>
             </div>
           </div>
         </div>
