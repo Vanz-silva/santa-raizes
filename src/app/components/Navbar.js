@@ -36,13 +36,24 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#contact">
-              Contato
+            <a
+              className="nav-link custom-link"
+              href="https://arvore"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Árvores
             </a>
           </li>
+
           <li className="nav-item">
-            <a className="nav-link" href="#plans">
-              Planos
+            <a
+              className="nav-link custom-link"
+              href="https://wa.me/5561988894994"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contato
             </a>
           </li>
         </ul>
