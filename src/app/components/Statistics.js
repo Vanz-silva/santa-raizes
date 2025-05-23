@@ -27,7 +27,7 @@ const Statistics = () => {
             <div className="p-4 rounded text-dark">
               <Image
                 src="/qr.png"
-                alt="Veterinários"
+                alt=""
                 width={64}
                 height={64}
                 className="m-3"

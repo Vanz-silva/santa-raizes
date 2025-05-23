@@ -13,8 +13,8 @@ export default function ArvorePage({ params }) {
     <div className="container  d-flex justify-content-center  py-5 px-3">
       <div className="row justify-content-center flex-column">
         <div className="col box-tree ">
-          <h1 className="h2 text-success mb-3">{arvore.nome_popular}</h1>
-          <p className="mb-4">{arvore.nome_cientifico}</p>
+          <h1 className="h2 text-center  mb-3">{arvore.nome_popular}</h1>
+          <p className="mb-4 text-center">{arvore.nome_cientifico}</p>
 
           <div
             className="mb-4 position-relative"
