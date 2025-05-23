@@ -45,7 +45,7 @@ p {
 }
 
 h2 {
-  color: #046307 !important;
+  color: #fff !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +54,14 @@ h2 {
   }
 }
 
+
+.custom-link {
+  transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+  color: #28a745 !important; /* verde */
+}
 .services {
   text-align: center;
   padding: 2rem;
