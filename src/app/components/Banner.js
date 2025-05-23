@@ -19,11 +19,11 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="banner pt-4" style={{ height: "80vh", overflow: "hidden" }}>
+    <section className="banner pt-4 pb-4" style={{ height: "80vh", overflow: "hidden" }}>
       <div
         id="carouselBanner"
         className="carousel slide carousel-fade box-st h-100"
-        style={{ width: "96%", margin: "0 auto", padding: "0", }}
+        style={{ width: "86%", margin: "0 auto", padding: "0", }}
       >
         <div className="carousel-inner h-100 w-100">
           {/* Slide 1 */}
