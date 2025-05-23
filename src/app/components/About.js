@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaPaw, FaEye, FaHeart } from "react-icons/fa";
 
 const About = () => (
-  <section className="py-5">
+  <section className="pt-5 mt-5">
     <div
       className="container about  py-5 mt-5 pt-5 mb-5"
       style={{ width: "70%" }}
