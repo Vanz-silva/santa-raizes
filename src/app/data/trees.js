@@ -7,7 +7,7 @@ export const trees = [
     idade: "15 anos",
     beneficios: "Atrai polinizadores, melhora a estrutura do solo.",
     curiosidades: "É símbolo nacional e floresce intensamente no inverno.",
-    imagem: "/arvores/img-pa.jpg",
+    imagem: "/arvores/test.jpg",
   },
   {
     slug: "pau-brasil",
