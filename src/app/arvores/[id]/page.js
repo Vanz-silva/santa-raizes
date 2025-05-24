@@ -4,6 +4,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { FaLeaf } from "react-icons/fa";
 
+export async function generateStaticParams() {
+  return trees.map((post) => ({
+    id: post.id,
+  }));
+}
+
 export default async function ArvorePage({ params }) {
   const { id } = await params;
   const arvore = trees.find((tree) => tree.id === Number(id));
