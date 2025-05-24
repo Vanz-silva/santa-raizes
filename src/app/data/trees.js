@@ -1,6 +1,7 @@
 //(mock de 20 árvores)
 export const trees = [
   {
+    id: 1,
     slug: "ipe-amarelo",
     nome_popular: "Ipê Amarelo",
     nome_cientifico: "Handroanthus albus",
@@ -10,6 +11,7 @@ export const trees = [
     imagem: "/arvores/test.jpg",
   },
   {
+    id: 2,
     slug: "pau-brasil",
     nome_popular: "Pau Brasil",
     nome_cientifico: "Paubrasilia echinata",
@@ -19,6 +21,7 @@ export const trees = [
     imagem: "/arvores/pau-brasil.jpg",
   },
   {
+    id: 3,
     slug: "brasil",
     nome_popular: "Pau Brasil",
     nome_cientifico: "Paubrasilia echinata",
@@ -27,8 +30,8 @@ export const trees = [
     curiosidades: "Deu origem ao nome do nosso país.",
     imagem: "/arvores/pau-brasil.jpg",
   },
-
   {
+    id: 4,
     slug: "asil",
     nome_popular: "Pau Brasil",
     nome_cientifico: "Paubrasilia echinata",
@@ -37,8 +40,8 @@ export const trees = [
     curiosidades: "Deu origem ao nome do nosso país.",
     imagem: "/arvores/pau-brasil.jpg",
   },
-
   {
+    id: 5,
     slug: "pau",
     nome_popular: "Pau Brasil",
     nome_cientifico: "Paubrasilia echinata",
