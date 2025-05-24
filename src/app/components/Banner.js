@@ -29,7 +29,7 @@ const Banner = () => {
           {/* Slide 1 */}
           <div className="carousel-item active position-relative h-100">
             <Image
-              src="/carousel-1.jpg"
+              src="/santa-raizes/carousel-1.jpg"
               alt="Imagem 1"
               layout="fill"
               className="object-fit-cover"
@@ -44,7 +44,7 @@ const Banner = () => {
           {/* Slide 2 */}
           <div className="carousel-item position-relative h-100">
             <Image
-              src="/carousel-2.jpg"
+              src="/santa-raizes/carousel-2.jpg"
               alt="Imagem 2"
               layout="fill"
               className="object-fit-cover"
@@ -58,7 +58,7 @@ const Banner = () => {
           {/* Slide 3 */}
           <div className="carousel-item position-relative h-100">
             <Image
-              src="/carousel-3.jpg"
+              src="/santa-raizes/carousel-3.jpg"
               alt="Imagem 3"
               layout="fill"
               className="object-fit-cover"
