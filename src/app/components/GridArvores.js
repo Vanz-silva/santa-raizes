@@ -9,9 +9,9 @@ export default function GridArvores() {
         <h2 className="text-center text-success mb-4">Nossas Árvores</h2>
         <div className="row g-4">
           {trees.map((tree) => (
-            <div className="col-6  col-md-4 col-xs-12" key={tree.slug}>
+            <div className="col-6  col-md-4 col-xs-12" key={tree.id}>
               <Link
-                href={`/arvores/${tree.slug}`}
+                href={`/arvores/${tree.id}`}
                 className="text-decoration-none"
               >
                 <div className="card box-tree w-100 h-100 text-center">
