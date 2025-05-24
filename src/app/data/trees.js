@@ -91,14 +91,4 @@ export const trees = [
     curiosidades: "Deu origem ao nome do nosso país.",
     imagem: "/santa-raizes/arvores/pau-brasil.jpg",
   },
-  {
-    id: 10,
-    slug: "pau",
-    nome_popular: "Pau Brasil",
-    nome_cientifico: "Paubrasilia echinata",
-    idade: "30 anos",
-    beneficios: "Fixação de nitrogênio, regeneração de solos.",
-    curiosidades: "Deu origem ao nome do nosso país.",
-    imagem: "/santa-raizes/arvores/pau-brasil.jpg",
-  },
 ];
