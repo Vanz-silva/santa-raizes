@@ -5,8 +5,8 @@ import Link from "next/link";
 import { FaLeaf } from "react-icons/fa";
 
 export async function generateStaticParams() {
-  return trees.map((post) => ({
-    id: post.id,
+  return trees.map((tree) => ({
+    id: String(tree.id),
   }));
 }
 
