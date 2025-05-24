@@ -8,7 +8,7 @@ export const trees = [
     idade: "15 anos",
     beneficios: "Atrai polinizadores, melhora a estrutura do solo.",
     curiosidades: "É símbolo nacional e floresce intensamente no inverno.",
-    imagem: "/arvores/test.jpg",
+    imagem: "/santa-raizes/arvores/test.jpg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const trees = [
     idade: "30 anos",
     beneficios: "Fixação de nitrogênio, regeneração de solos.",
     curiosidades: "Deu origem ao nome do nosso país.",
-    imagem: "/arvores/pau-brasil.jpg",
+    imagem: "/santa-raizes/arvores/pau-brasil.jpg",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const trees = [
     idade: "30 anos",
     beneficios: "Fixação de nitrogênio, regeneração de solos.",
     curiosidades: "Deu origem ao nome do nosso país.",
-    imagem: "/arvores/pau-brasil.jpg",
+    imagem: "/santa-raizes/arvores/pau-brasil.jpg",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const trees = [
     idade: "30 anos",
     beneficios: "Fixação de nitrogênio, regeneração de solos.",
     curiosidades: "Deu origem ao nome do nosso país.",
-    imagem: "/arvores/pau-brasil.jpg",
+    imagem: "/santa-raizes/arvores/pau-brasil.jpg",
   },
   {
     id: 5,
@@ -48,6 +48,6 @@ export const trees = [
     idade: "30 anos",
     beneficios: "Fixação de nitrogênio, regeneração de solos.",
     curiosidades: "Deu origem ao nome do nosso país.",
-    imagem: "/arvores/pau-brasil.jpg",
+    imagem: "/santa-raizes/arvores/pau-brasil.jpg",
   },
 ];
