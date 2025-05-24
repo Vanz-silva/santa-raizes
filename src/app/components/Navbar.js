@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="d-flex text-center align-items-center">
           <div>
             <Image
-              src="/planta.png"
+              src="/santa-raizes/planta.png"
               alt="Exames"
               width={40}
               height={40}
