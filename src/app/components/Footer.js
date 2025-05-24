@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 const Footer = () => (
   <footer className="footer text-center pt-5 pb-5">
     <h3 className="txt-foo">Santa Raízes</h3>
-    <p>&copy; {new Date().getFullYear()} Todos os direitos reservados.</p>
+
     <div className="socialLinks d-flex justify-content-center gap-4 mt-3">
       <a
         className="social-icon"
@@ -31,6 +31,7 @@ const Footer = () => (
         <FaWhatsapp size={24} />
       </a>
     </div>
+    <p>&copy; {new Date().getFullYear()} Todos os direitos reservados.</p>
   </footer>
 );
 
