@@ -179,3 +179,9 @@ footer {
 .txt-foo {
   color: #fff !important;
 }
+
+.c-arvore  {
+  display: flex !important;
+  justify-content: centrer !important;
+  align-items: center !important;
+}
