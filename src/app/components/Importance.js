@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import Lottie from "lottie-react";
+import qrAnimation from "@/app/data/lotties/qr-animation.json";
 
 const Importance = () => (
   <section className="importance pt-5 pb-5 mt-5 mb-5">
@@ -10,8 +13,16 @@ const Importance = () => (
         aproxima o público da natureza. É uma forma moderna, acessível e
         sustentável de explorar a biodiversidade local.
       </p>
+    </div>
+    {/* QR + Fontes lado a lado */}
+    <div className="d-flex justify-content-center g-5 align-items-start mt-5 gap-5 flex-wrap">
+      {/* Lottie QR Animation */}
+      <div style={{ width: 200, height: 200, backgroundColor: "#f8f9fad9" }}>
+        <Lottie animationData={qrAnimation} />
+      </div>
 
-      <div className="mt-5">
+      {/* Fontes de Pesquisa */}
+      <div className="text-center">
         <h5 className="mb-3" style={{ color: "#fff" }}>
           Fontes de Pesquisa
         </h5>
