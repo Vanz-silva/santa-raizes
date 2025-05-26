@@ -29,7 +29,7 @@ const Banner = () => {
           {/* Slide 1 */}
           <div className="carousel-item active position-relative h-100">
             <Image
-              src="/santa-raizes/carousel-1.jpg"
+              src="/santa-raizes/slide2.jpg"
               alt="Imagem 1"
               layout="fill"
               className="object-fit-cover"
@@ -37,35 +37,35 @@ const Banner = () => {
               style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-              <h1 className="display-3 fw-bold">Primeiro Slide</h1>
+              <h1 className="display-3 fw-bold">Preserve a Natureza</h1>
             </div>
           </div>
 
           {/* Slide 2 */}
           <div className="carousel-item position-relative h-100">
             <Image
-              src="/santa-raizes/carousel-2.jpg"
+              src="/santa-raizes/slide4.jpg"
               alt="Imagem 2"
               layout="fill"
               className="object-fit-cover"
               style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-              <h1 className="display-3 fw-bold">Segundo Slide</h1>
+              <h1 className="display-3 fw-bold">Plante Amor</h1>
             </div>
           </div>
 
           {/* Slide 3 */}
           <div className="carousel-item position-relative h-100">
             <Image
-              src="/santa-raizes/carousel-3.jpg"
+              src="/santa-raizes/slide3.jpg"
               alt="Imagem 3"
               layout="fill"
               className="object-fit-cover"
               style={{ borderRadius: "24px"}}
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-              <h1 className="display-3 fw-bold">Terceiro Slide</h1>
+              <h1 className="display-3 fw-bold">Salve suas Raizes</h1>
             </div>
           </div>
         </div>
