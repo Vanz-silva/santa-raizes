@@ -19,11 +19,11 @@ const About = () => (
             O Santa Raízes é um projeto que une natureza e tecnologia para
             transformar sua caminhada no parque da Santa Maria -DF em uma
             jornada de aprendizado ambiental. Por meio de QR Codes instalados em
-            árvores do Parque Ecológico da Santa Maria -Df, você pode acessar
-            páginas digitais exclusivas com informações sobre cada espécie — sua
-            origem, benefícios para o meio ambiente e curiosidades
-            surpreendentes. Faça uma visita ao parque, escaneie os códigos com
-            seu celular e descubra como cada árvore conta uma história.
+            árvores do Parque Ecológico da cidade, você pode acessar páginas digitais
+            exclusivas com informações sobre cada espécie — sua origem,
+            benefícios para o meio ambiente e curiosidades surpreendentes. Faça
+            uma visita ao parque, escaneie os códigos com seu celular e descubra
+            como cada árvore conta uma história.
           </h5>
         </div>
       </div>
